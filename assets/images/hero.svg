@@ -1,0 +1,16 @@
+<svg viewBox="0 0 900 940" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder photo, homepage hero photo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D4F4E"/>
+      <stop offset="1" stop-color="#241B2F"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="940" fill="url(#g)"/>
+  <g opacity="0.9" transform="translate(408.0,400.0)">
+    <rect x="0" y="18" width="84" height="60" rx="10" fill="none" stroke="#FFFDF9" stroke-width="4"/>
+    <circle cx="42" cy="48" r="18" fill="none" stroke="#FFFDF9" stroke-width="4"/>
+    <rect x="26" y="4" width="32" height="16" rx="4" fill="none" stroke="#FFFDF9" stroke-width="4"/>
+  </g>
+  <text x="450.0" y="526.0" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#FFFDF9" opacity="0.85">Replace with photo</text>
+  <text x="450.0" y="550.0" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#FFFDF9" opacity="0.6">homepage hero photo</text>
+</svg>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Eventzone.ng</title>
+<meta name="description" content="Browse weddings, corporate events and social celebrations planned and styled by Eventzone.ng across Lagos and beyond.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="preloader" aria-hidden="true">
+  <svg class="preloader-mark" viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M20,82 L20,48 Q20,18 50,18 Q80,18 80,48 L80,82"/>
+  </svg>
+  <p class="preloader-text">Setting the scene</p>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">
+        <img src="assets/images/logo.svg" alt="Eventzone.ng logo" width="26" height="26">
+      </span>
+      <span>Eventzone.ng<small>Event planning, Lagos</small></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Get a quote</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Projects</p>
+      <p class="eyebrow">Our portfolio</p>
+      <h1>A look at the weddings, launches and celebrations we have planned</h1>
+      <p>Filter by category to see events closer to what you have in mind for your own date.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="filter-bar" role="group" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All projects</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+        <button class="filter-btn" data-filter="social">Social</button>
+        <button class="filter-btn" data-filter="adult">Adult celebrations</button>
+      </div>
+
+      <div class="grid grid-3">
+
+        <div class="project-card" data-category="wedding">
+          <div class="project-thumb">
+            <span class="badge-recent">Most recent</span>
+            <video poster="assets/images/wedding-abiodun-olusanmi.webp" preload="none" muted playsinline controls width="720" height="1280">
+              <source src="assets/videos/wedding-aisle.mp4" type="video/mp4">
+              Your browser does not support embedded video; here is a photo from the day instead.
+              <img src="assets/images/wedding-abiodun-olusanmi.webp" alt="The reception hall styled for Abiodun and Olusanmi's wedding" width="1400" height="1866">
+            </video>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Wedding</span>
+            <h3>Abiodun and Olusanmi, The Sceptre</h3>
+            <p>A full reception styling, draped ceiling, floral aisle and lighting design, tied together under one shared theme.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="wedding">
+          <div class="project-thumb"><img src="assets/images/bridal-shower-abiodun.webp" alt="Abiodun's bridal shower, styled in blue and silver" width="1290" height="1648" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Wedding</span>
+            <h3>Abiodun's bridal shower</h3>
+            <p>A blue and silver bridal shower, held ahead of Abiodun and Olusanmi's wedding, with a matching balloon garland.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="corporate">
+          <div class="project-thumb"><img src="assets/images/project-corporate-1.svg" alt="Photo from the Northbridge product launch" width="800" height="600" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Corporate</span>
+            <h3>Northbridge product launch</h3>
+            <p>A 250 person product reveal, on brand from stage design to the guest gift bags, run in one evening.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="corporate">
+          <div class="project-thumb"><img src="assets/images/project-corporate-2.svg" alt="Photo from the Delta Bank annual dinner" width="800" height="600" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Corporate</span>
+            <h3>Delta Bank annual dinner</h3>
+            <p>A 500 guest gala dinner with a full stage production, seating plan and staged award ceremony.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="social">
+          <div class="project-thumb"><img src="assets/images/graduation-spring-lake.webp" alt="Congratulations Class of 2026 photo wall for Spring Lake School graduation" width="1400" height="1866" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Social</span>
+            <h3>Spring Lake School, Class of 2026</h3>
+            <p>A graduation photo wall and balloon styling celebrating the school's newest set of graduates.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="social">
+          <div class="project-thumb"><img src="assets/images/anaiah-fairy-first.webp" alt="Anaiah's Fairy First birthday styling, a fairy castle backdrop with a matching table setup" width="1400" height="1866" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Social</span>
+            <h3>Anaiah's Fairy First birthday</h3>
+            <p>A fairy tale first birthday, with a custom castle backdrop and a table setting styled to match.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="social">
+          <div class="project-thumb"><img src="assets/images/elroi-playdate-tables.webp" alt="El'roi's play date, outdoor garden tables styled in pink" width="1400" height="1866" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Social</span>
+            <h3>El'roi's play date</h3>
+            <p>An outdoor garden party with a bounce castle, a bubble tent and a full princess themed table setting.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="adult">
+          <div class="project-thumb"><img src="assets/images/project-social-1.svg" alt="Photo from Mrs Balogun's 60th birthday" width="800" height="600" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Adult celebration</span>
+            <h3>Mrs Balogun at 60</h3>
+            <p>An intimate garden birthday for 80 guests, styled around soft greens, linen and warm evening light.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="adult">
+          <div class="project-thumb"><img src="assets/images/project-adult-1.svg" alt="Photo from Mr Adisa's 50th birthday" width="800" height="600" loading="lazy"></div>
+          <div class="project-body">
+            <span class="project-tag">Adult celebration</span>
+            <h3>Mr Adisa at 50</h3>
+            <p>A 120 guest milestone dinner with a live band, a curated drinks menu and a lounge styled seating plan.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-head mt-lg">
+        <p class="eyebrow">More from recent events</p>
+        <h2>A few reels from the field</h2>
+      </div>
+      <div class="reel-strip">
+        <div class="reel-card">
+          <video poster="assets/images/wedding-abiodun-olusanmi.webp" preload="none" muted playsinline controls><source src="assets/videos/wedding-aisle.mp4" type="video/mp4"></video>
+          <p>Aisle reveal, Abiodun and Olusanmi</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/wedding-abiodun-olusanmi.webp" preload="none" muted playsinline controls><source src="assets/videos/wedding-reception.mp4" type="video/mp4"></video>
+          <p>Reception hall, Abiodun and Olusanmi</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/elroi-playdate-tables.webp" preload="none" muted playsinline controls><source src="assets/videos/elroi-playdate-garden.mp4" type="video/mp4"></video>
+          <p>Garden lunch, El'roi's play date</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/elroi-playdate-play.webp" preload="none" muted playsinline controls><source src="assets/videos/elroi-playdate-entrance.mp4" type="video/mp4"></video>
+          <p>Arch entrance, El'roi's play date</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/cherry-on-top-birthday.jpg" preload="none" muted playsinline controls><source src="assets/videos/cherry-on-top-birthday.mp4" type="video/mp4"></video>
+          <p>A cherry themed birthday tablescape</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/ms-rachel-birthday.jpg" preload="none" muted playsinline controls><source src="assets/videos/ms-rachel-birthday.mp4" type="video/mp4"></video>
+          <p>A Ms Rachel themed toddler party</p>
+        </div>
+        <div class="reel-card">
+          <video poster="assets/images/first-birthday-moment.jpg" preload="none" muted playsinline controls><source src="assets/videos/first-birthday-moment.mp4" type="video/mp4"></video>
+          <p>A first birthday moment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+
+    <div class="container">
+      <div class="cta-band" style="background:var(--ink);">
+        <div>
+          <h2 style="color:var(--white);">See something close to what you want?</h2>
+          <p style="color:var(--sand-dim);">Send us the project you liked and your own date; we will build a concept around the same feeling.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="background:var(--coral);">Start a project <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="color:var(--white); margin-bottom:0.8rem; display:inline-flex;">
+          <span class="logo-mark">
+            <img src="assets/images/logo.svg" alt="Eventzone.ng logo" width="26" height="26">
+          </span>
+          <span>Eventzone.ng</span>
+        </a>
+        <p>We plan and style weddings, corporate events and social celebrations across Lagos and beyond; every detail handled, every guest looked after.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="X, formerly Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Weddings</a></li>
+          <li><a href="services.html">Corporate events</a></li>
+          <li><a href="services.html">Social celebrations</a></li>
+          <li><a href="services.html">Adult celebrations</a></li>
+          <li><a href="services.html">Decor and styling</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Victoria Island, Lagos</li>
+          <li>hello@eventzone.ng</li>
+          <li>+234 801 234 5678</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Eventzone.ng; all rights reserved.</span>
+      <span><a href="#">Privacy policy</a> &nbsp; <a href="#">Terms of service</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

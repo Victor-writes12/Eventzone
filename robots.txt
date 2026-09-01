@@ -1,0 +1,5 @@
+# Update the domain below to the live one once the site is hosted
+User agent: *
+Allow: /
+
+Sitemap: https://www.eventzone.ng/sitemap.xml

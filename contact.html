@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Eventzone.ng</title>
+<meta name="description" content="Get in touch with Eventzone.ng to plan your wedding, corporate event or celebration in Lagos; tell us your date and we will reply within one business day.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="preloader" aria-hidden="true">
+  <svg class="preloader-mark" viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M20,82 L20,48 Q20,18 50,18 Q80,18 80,48 L80,82"/>
+  </svg>
+  <p class="preloader-text">Setting the scene</p>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">
+        <img src="assets/images/logo.svg" alt="Eventzone.ng logo" width="26" height="26">
+      </span>
+      <span>Eventzone.ng<small>Event planning, Lagos</small></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Get a quote</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <p class="eyebrow">Let's talk</p>
+      <h1>Tell us about your event, and we will take it from there</h1>
+      <p>Share your date, guest count and a little about what you have in mind; a planner will reply within one business day.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container split">
+
+      <div>
+        <h2 style="font-size:1.5rem;">Send us a message</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div>
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+234">
+            </div>
+            <div class="full">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="event-type">Event type</label>
+              <select id="event-type" name="event-type">
+                <option>Wedding</option>
+                <option>Corporate event</option>
+                <option>Social celebration</option>
+                <option>Decor and styling only</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div>
+              <label for="event-date">Preferred date</label>
+              <input type="date" id="event-date" name="event-date">
+            </div>
+            <div class="full">
+              <label for="message">Tell us about the event</label>
+              <textarea id="message" name="message" required placeholder="Guest count, location, budget range and the feeling you want the day to have"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-lg"><i class="fa-solid fa-paper-plane"></i> Send message</button>
+          <p class="form-note" id="form-status">We typically reply within one business day; for urgent dates, call or message us on WhatsApp instead.</p>
+        </form>
+      </div>
+
+      <div>
+        <h2 style="font-size:1.5rem;">Reach us directly</h2>
+        <div class="contact-details mt-lg">
+          <div class="contact-row">
+            <div class="service-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Studio address</h4>
+              <p>14 Adeola Odeku Street, Victoria Island, Lagos</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="service-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone and WhatsApp</h4>
+              <p>+234 801 234 5678</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="service-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@eventzone.ng</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="service-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Studio hours</h4>
+              <p>Monday to Saturday, 9am to 6pm; closed on public holidays</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:2rem; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--sand-dim);">
+          <iframe
+            src="https://www.google.com/maps?q=14+Adeola+Odeku+Street,+Victoria+Island,+Lagos&amp;output=embed"
+            width="100%"
+            height="220"
+            style="border:0; display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map showing the Eventzone.ng studio location on Victoria Island, Lagos">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head text-center">
+        <p class="eyebrow">Before you write in</p>
+        <h2>A few common questions</h2>
+      </div>
+      <div class="grid grid-2" style="max-width:900px; margin:0 auto;">
+        <div class="service-card">
+          <h3>How far ahead should I book?</h3>
+          <p>For weddings and large corporate events, six to nine months gives us the best vendor availability; smaller social events can often be planned in four to six weeks.</p>
+        </div>
+        <div class="service-card">
+          <h3>Do you work outside Lagos?</h3>
+          <p>Yes, we regularly plan events in Abuja and Port Harcourt, and take on destination events with advance notice.</p>
+        </div>
+        <div class="service-card">
+          <h3>Can I book decor without full planning?</h3>
+          <p>Yes, our design and styling package works alongside your own planning team or vendors.</p>
+        </div>
+        <div class="service-card">
+          <h3>What is included in the first call?</h3>
+          <p>A thirty minute conversation about your date, budget range and vision, followed by a written concept and quote.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="color:var(--white); margin-bottom:0.8rem; display:inline-flex;">
+          <span class="logo-mark">
+            <img src="assets/images/logo.svg" alt="Eventzone.ng logo" width="26" height="26">
+          </span>
+          <span>Eventzone.ng</span>
+        </a>
+        <p>We plan and style weddings, corporate events and social celebrations across Lagos and beyond; every detail handled, every guest looked after.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="X, formerly Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Weddings</a></li>
+          <li><a href="services.html">Corporate events</a></li>
+          <li><a href="services.html">Social celebrations</a></li>
+          <li><a href="services.html">Adult celebrations</a></li>
+          <li><a href="services.html">Decor and styling</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Victoria Island, Lagos</li>
+          <li>hello@eventzone.ng</li>
+          <li>+234 801 234 5678</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Eventzone.ng; all rights reserved.</span>
+      <span><a href="#">Privacy policy</a> &nbsp; <a href="#">Terms of service</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
